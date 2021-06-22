@@ -1,15 +1,8 @@
-import React from 'react';
-
-import {Button} from './components/Button';
+import {Router} from './routes/index';
 
 function App() {
   return (
-    <>
-    <Button key="1" text="Clique aqui"/>
-    <Button text={2}/>
-    <Button>Usando Children</Button>
-    <Button text="Clique aqui 3"/>
-    </>
+    <Router/>
   );
 }
 
