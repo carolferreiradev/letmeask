@@ -1,37 +1,46 @@
-#page-room{
+#page-room {
   header {
-    padding:24px;
+    padding: 24px;
     border-bottom: 1px solid #e2e2e2;
 
-    .content{
+    .content {
       max-width: 1120px;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
 
-      >img{
+      >img {
         max-height: 45px;
+      }
+
+      >div {
+        display: flex;
+        gap: 16px;
+
+        button {
+          height: 40px;
+        }
       }
     }
   }
 
-  main{
+  main {
     max-width: 800px;
     margin: 0 auto;
 
-    .room-title{
+    .room-title {
       margin: 32px 0 24px;
       display: flex;
       align-items: center;
 
-      h1{
+      h1 {
         font-family: 'Poppins', sans-serif;
         font-size: 24px;
         color: #29292e;
       }
 
-      span{
+      span {
         margin-left: 16px;
         background: #e559f9;
         border-radius: 9999px;
@@ -43,7 +52,7 @@
     }
 
     form {
-      textarea{
+      textarea {
         width: 100%;
         border: 0;
         padding: 16px;
@@ -54,23 +63,23 @@
         min-height: 130px;
       }
 
-      .form-footer{
+      .form-footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 12px;
 
-        .user-info{
+        .user-info {
           display: flex;
           align-items: center;
 
-          img{
+          img {
             width: 32px;
             height: 32px;
             border-radius: 50%;
           }
 
-          span{
+          span {
             margin-left: 8px;
             color: #29292e;
             font-weight: 500;
@@ -78,12 +87,12 @@
           }
         }
 
-        > span{
+        >span {
           font-size: 14px;
-          color:#737380;
+          color: #737380;
           font-weight: 500;
 
-          button{
+          button {
             background: transparent;
             border: 0;
             color: #835afd;
@@ -94,6 +103,10 @@
           }
         }
       }
+    }
+
+    .question-list {
+      margin-top: 32px;
     }
   }
 }
