@@ -15,7 +15,7 @@
 <br>
 
 <p align="center">
-  <img alt="letmeask" src=".img/bg-project.png" width="100%">
+  <img alt="letmeask" src="https://github.com/carolferreiradev/letmeask/blob/master/img/bg-project.png" width="100%">
 </p>
 
 ## 🛠 Tecnologias
@@ -32,7 +32,7 @@ O Letmeask é uma plataforma que tem a proposta de resolver problemas de acúmul
 
 ## 🔎 Projeto Online
 
-Você pode acessar esse projeto atraves do [desse link](https://letmeask-f7dbc.web.app).
+Você pode acessar esse projeto atraves [desse link](https://letmeask-f7dbc.web.app).
 
 ## ❓ Como executar
 
