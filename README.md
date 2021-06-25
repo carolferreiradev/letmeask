@@ -32,7 +32,7 @@ O Letmeask é uma plataforma que tem a proposta de resolver problemas de acúmul
 
 ## 🔎 Projeto Online
 
-Você pode acessar esse projeto atraves [desse link](https://letmeask-f7dbc.web.app).
+Você pode acessar esse projeto através [desse link](https://letmeask-f7dbc.web.app).
 
 ## ❓ Como executar
 
