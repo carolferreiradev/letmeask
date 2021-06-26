@@ -15,7 +15,7 @@
 <br>
 
 <p align="center">
-  <img alt="letmeask" src="https://github.com/carolferreiradev/letmeask/blob/master/img/bg-project.png" width="100%">
+  <img alt="letmeask" src="https://github.com/carolferreiradev/letmeask/blob/master/img/20210626_193841.gif" width="100%">
 </p>
 
 ## 🛠 Tecnologias
