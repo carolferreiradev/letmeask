@@ -1,12 +1,14 @@
-#page-auth {
+import styled from "styled-components";
+
+export const PageAuth = styled.div`
   display: flex;
   align-items: stretch;
   height: 100vh;
 
   aside {
     flex: 7;
-    background: #835afd;
-    color: #FFF;
+    background: ${props => props.theme.colors.primary};
+    color: ${props => props.theme.colors.textlight};
 
     display: flex;
     flex-direction: column;
@@ -28,7 +30,7 @@
       font-size: 24px;
       line-height: 32px;
       margin-top: 16px;
-      color: #f8f8f8;
+      color:${props => props.theme.colors.textlight};
     }
   }
 
@@ -50,9 +52,13 @@
     align-items: stretch;
     text-align: center;
 
-    >img {
+    >svg {
       align-self: center;
     }
+
+    >svg path:nth-child(-n + 5){
+          fill: ${props => props.theme.colors.text};
+        }
 
     h2{
       font-size: 24px;
@@ -65,8 +71,9 @@
         height: 50px;
         border-radius: 8px;
         padding: 0 16px;
-        background: #FFF;
-        border: 1px solid #a8a8b3;
+        background: ${props => props.theme.colors.background};
+        border: 1px solid ${props => props.theme.colors.text};
+        color: ${props => props.theme.colors.text};
       }
 
       button {
@@ -81,11 +88,11 @@
 
     p{
       font-size: 14px;
-      color: #737380;
+      color: ${props => props.theme.colors.text};
       margin-top: 16px;
 
       a {
-        color: #e559f9;
+        color: ${props => props.theme.colors.text};
       }
     }
   }
@@ -95,8 +102,8 @@
     height: 50px;
     border-radius: 8px;
     font-weight: 500;
-    background: #ea4335;
-    color: #fff;
+    background: ${props => props.theme.colors.secundary};
+    color: ${props => props.theme.colors.text};
 
     display: flex;
     justify-content: center;
@@ -106,8 +113,11 @@
     border: 0;
     transition: filter 0.2s;
 
-    img {
+    svg {
       margin-right: 8px;
+      path{
+        fill: ${props => props.theme.colors.primary};
+      }
     }
     &:hover{
       filter: brightness(0.9);
@@ -116,7 +126,7 @@
 
   .separator {
     font-size: 14px;
-    color: #a8a8b3;
+    color: ${props => props.theme.colors.text};
     align-items: center;
 
     margin: 32px 0;
@@ -127,7 +137,7 @@
       content: '';
       flex: 1;
       height: 1px;
-      background: #a8a8b3;
+      background: ${props => props.theme.colors.text};
       margin-right: 16px;
     }
 
@@ -135,8 +145,15 @@
       content: '';
       flex: 1;
       height: 1px;
-      background: #a8a8b3;
+      background: ${props => props.theme.colors.text};
       margin-left: 16px;
     }
   }
-}
+`
+
+export const ButtonSwitch = styled.div`
+  margin-left: 12px;
+  z-index:1;
+  position: absolute;
+  margin-top: 12px;
+`

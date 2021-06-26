@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import '../styles/question.scss';
+import { QuestionDiv, UserInfo } from '../styles/question';
 
 import cn from 'classnames';
 
@@ -22,22 +22,22 @@ export function Question({
   children
 }: QuestionProps) {
   return (
-    <div className={cn(
+    <QuestionDiv className={cn(
       'question',
       { answered: isAnswered },
-      { highlighted: isHighlighted && !isAnswered}
+      { highlighted: isHighlighted && !isAnswered }
     )}>
 
       <p>{content}</p>
       <footer>
-        <div className="user-info">
+        <UserInfo>
           <img src={author.avatar} alt={author.name} />
           <span>{author.name}</span>
-        </div>
+        </UserInfo>
         <div>
           {children}
         </div>
       </footer>
-    </div>
+    </QuestionDiv>
   )
 }
