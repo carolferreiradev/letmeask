@@ -30,6 +30,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Letmeask é uma plataforma que tem a proposta de resolver problemas de acúmulos de perguntas durante uma live, transmissão, etc. Com ela você pode criar salas privadas onde somente os que possuem o ID da sala podem acessar, os participantes podem fazer perguntas(desde que estejam logados com o Google), votar nas mesmas. Já o criador da sala pode demarcar as perguntas como respondidas, colocar foco, dentre outras funcionalidades.
 
+Adição de tema Dark e Light.
+
 ## 🔎 Projeto Online
 
 Você pode acessar esse projeto através [desse link](https://letmeask-f7dbc.web.app).
